@@ -1,14 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.Api", "BookStore.Api\BookStore.Api.csproj", "{4464CA3D-F86C-4841-93B3-20A5AC8B7066}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.Api", "src\BookStore.Api\BookStore.Api.csproj", "{4464CA3D-F86C-4841-93B3-20A5AC8B7066}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.Api.Web", "BookStore.Api.Web\BookStore.Api.Web.csproj", "{FB26D216-E097-4228-B075-F8833BD9D2FA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.Api.Web", "src\BookStore.Api.Web\BookStore.Api.Web.csproj", "{FB26D216-E097-4228-B075-F8833BD9D2FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.Api.Application", "BookStore.Api.Application\BookStore.Api.Application.csproj", "{CBB46C00-4C9E-4836-A3AE-86666D54A808}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.Api.Application", "src\BookStore.Api.Application\BookStore.Api.Application.csproj", "{CBB46C00-4C9E-4836-A3AE-86666D54A808}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.Api.Infrastructure", "BookStore.Api.Infrastructure\BookStore.Api.Infrastructure.csproj", "{0BA0D49E-1897-44AB-B782-7F2992340320}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.Api.Infrastructure", "src\BookStore.Api.Infrastructure\BookStore.Api.Infrastructure.csproj", "{0BA0D49E-1897-44AB-B782-7F2992340320}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.Api.Domain", "BookStore.Api.Domain\BookStore.Api.Domain.csproj", "{73017432-D8CC-4830-B96F-8E02B3D4B7EF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.Api.Domain", "src\BookStore.Api.Domain\BookStore.Api.Domain.csproj", "{73017432-D8CC-4830-B96F-8E02B3D4B7EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{52A294ED-4537-4AD4-A411-3C1E4452DB1C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,5 +38,12 @@ Global
 		{73017432-D8CC-4830-B96F-8E02B3D4B7EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73017432-D8CC-4830-B96F-8E02B3D4B7EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73017432-D8CC-4830-B96F-8E02B3D4B7EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4464CA3D-F86C-4841-93B3-20A5AC8B7066} = {52A294ED-4537-4AD4-A411-3C1E4452DB1C}
+		{CBB46C00-4C9E-4836-A3AE-86666D54A808} = {52A294ED-4537-4AD4-A411-3C1E4452DB1C}
+		{73017432-D8CC-4830-B96F-8E02B3D4B7EF} = {52A294ED-4537-4AD4-A411-3C1E4452DB1C}
+		{0BA0D49E-1897-44AB-B782-7F2992340320} = {52A294ED-4537-4AD4-A411-3C1E4452DB1C}
+		{FB26D216-E097-4228-B075-F8833BD9D2FA} = {52A294ED-4537-4AD4-A411-3C1E4452DB1C}
 	EndGlobalSection
 EndGlobal
