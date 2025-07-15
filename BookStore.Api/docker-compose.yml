@@ -5,6 +5,7 @@ services:
     image: postgres:16
     container_name: postgres_book_store
     environment:
+      POSTGRES_USER: book_store_admin
       POSTGRES_PASSWORD: passw0rd
     ports:
       - "5432:5432"
