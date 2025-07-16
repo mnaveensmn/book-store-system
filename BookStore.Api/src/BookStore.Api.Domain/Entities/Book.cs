@@ -1,4 +1,4 @@
-namespace BookStore.Api.Domain.Book;
+namespace BookStore.Api.Domain.Entities;
 
 public class Book
 {
